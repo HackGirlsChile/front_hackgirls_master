@@ -1,21 +1,23 @@
 # Mi primer landing page
 
-Genial ahora pondremos en práctica lo que aprendimos de HTML y CSS pero agregaremos un componente nuevo y es bootstrap. imagino que estas pensando que es bootstrap, bueno Boostrap es un framework mobile first desarrollado por la gente de Twitter y liberado a la comunidad; nos permite desarrollar sitios web responsive e interfaces de forma rápida combinando CSS, HTML5 y Jquery, y es eso lo que vamos a realizar ahora.
+Excelente! Ahora pondremos en práctica lo que aprendimos de HTML y CSS y agregaremos un componente nuevo llamado Bootstrap. Boostrap es un framework mobile first desarrollado por la gente de Twitter y liberado a la comunidad para libre uso. Nos permite desarrollar sitios web responsive e interfaces de forma rápida, combinando CSS, HTML5 y Jquery, exactamente lo que vamos a realizar ahora.
 
-Como desafío vamos enseñar a construir el siguiente landing page
+Vamos a construir el siguiente landing page:
 
 ![Layout landing page!](images/layout_landing.png)
 
 
-Ya verás que con bootstrap no es complejo y podremos poner nuestros conocimientos en práctica, asi que manos a la obra!!.
+Ya verás que con Bootstrap no es difícil y podremos poner nuestros conocimientos en práctica.
+
+¡Manos a la obra! 
 
 ## Iniciando el proyecto
 
-Lo primero que debemos hacer es instalar bootstrap, para esto existen diferentes mecanismos de instalación, pero solo utilizaremos una de ellas, comencemos!
+Lo primero que debemos hacer es instalar Bootstrap. Para esto existen diferentes mecanismos de instalación, pero solo utilizaremos uno de ellos... comencemos!
 
-Primero debemos descargar los archivos fuentes de bootstrap. Para ello hacemos click en el siguiente [enlace](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip) 
+Primero debemos descargar los archivos fuentes de Bootstrap. Para ello hacemos clic en el siguiente [ENLACE](https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip).
 
-El archivo lo deben guardar en alguna carpeta de tu computador. Para esta guía la nombraremos bootstrap_landing. Dentro de la carpeta debemos dejar el fichero comprimido que descargamos, luego lo debemos descomprimir quedando la siguiente estructura de directorios.
+Deben guardar el archivo en alguna carpeta del computador. Para esta guía la nombraremos bootstrap_landing. Dentro de la carpeta debemos dejar el fichero comprimido que descargamos, luego lo debemos descomprimir quedando la siguiente estructura de directorios:
 
 ```
 bootstrap_demo/
@@ -43,7 +45,7 @@ bootstrap_demo/
 
 Ahora debemos crear un archivo nuevo que lo nombraremos __index.html__ (puede ser cualquier nombre). 
 
-Debemos abrir el archivo nuevo con nuestro editor de texto sublime text. En el contenido del archivo __index.html__ debemos copiar y pegar el siguiente contenido.
+Debemos abrir el archivo nuevo con nuestro editor de texto Sublime Text. En el contenido del archivo __index.html__ debemos copiar y pegar el siguiente contenido.
 
 ```html
 <!DOCTYPE html>
