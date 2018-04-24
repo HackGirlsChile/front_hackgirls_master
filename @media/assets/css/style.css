@@ -1,0 +1,43 @@
+/* -------------------------------------------------------------- 
+  
+   reset.css
+   * Resets default browser CSS.
+   
+-------------------------------------------------------------- */
+
+a,abbr,acronym,address,blockquote,body,caption,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,label,legend,li,object,ol,p,pre,q,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}body{line-height:1.5}caption,td,th{text-align:left;font-weight:400}table,td,th{vertical-align:middle}blockquote:after,blockquote:before,q:after,q:before{content:""}blockquote,q{quotes:"" ""}a img{border:none}article{display:inline}
+
+
+/* -------------------------------------------------------------- 
+  
+   Main Style
+   * This is where your magic begins.
+   
+-------------------------------------------------------------- */
+
+body {
+  display: flex;
+  font-family: 'Source Sans Pro';
+  height: 100vh;
+}
+
+article {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+    height: 160px;
+    margin: 0 auto;
+    width: 160px;
+}
+
+article::after { 
+    color: gray;
+    clear: both;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}

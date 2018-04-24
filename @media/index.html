@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
+	<link rel="stylesheet" href="assets/css/fonts.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<!-- <link rel="shortcut icon" href="assets/ico/favicon.ico" /> -->
+	<title>@Media Query</title>
+	<style>
+		
+/* HUGE */
+@media all and (min-width: 1200px) {
+
+    body {
+      background: #FFEAEA;
+      background: -moz-radial-gradient(center, ellipse cover, #FFEAEA 0%, #ffffff 100%);
+      background: -webkit-radial-gradient(center, ellipse cover, #FFEAEA 0%,#ffffff 100%);
+      background: radial-gradient(ellipse at center, #FFEAEA 0%,#ffffff 100%);
+    }
+
+    article::after { 
+        content: "Wow, this is insane!";
+    }
+
+    .img {
+        background: url(assets/images/insane.png) no-repeat;
+    }
+}
+
+/* BIG */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+    body {
+      background: #fffbcc;
+      background: -moz-radial-gradient(center, ellipse cover, #fffbcc 0%, #ffffff 100%);
+      background: -webkit-radial-gradient(center, ellipse cover, #fffbcc 0%,#ffffff 100%);
+      background: radial-gradient(ellipse at center, #fffbcc 0%,#ffffff 100%);
+    }
+
+    article::after { 
+        content: "Hola, qué tal!?";
+    }
+
+    .img {
+        background: url(assets/images/sunglass.png) no-repeat;
+    }
+}
+
+/* REGULAR */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    
+    article::after { 
+        content: "Wow! mucho mejor";
+    }
+
+    .img {
+        background: url(assets/images/smile.png) no-repeat;
+    }
+}
+
+/* SMALL */
+@media all and (min-width: 481px) and (max-width: 767px) {
+    
+    article::after { 
+        content: "No lo suficiente";
+    }
+
+    .img {
+        background: url(assets/images/sad.png) no-repeat;
+    }
+}
+
+/* TINY*/
+@media all and (max-width: 480px) {
+    article::after { 
+        content: "¡Oh, muy chico!";
+        font-size: 10.2vw;
+    }
+
+    .img {
+        background: url(assets/images/cry.png) no-repeat;
+    }
+}
+	</style>
+</head>
+<body>
+
+	<article>
+		<div class="img"></div>
+	</article>
+		
+</body>
+</html>
